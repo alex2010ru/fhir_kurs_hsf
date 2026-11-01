@@ -1,0 +1,8 @@
+output/
+temp/
+template/
+input-cache/
+node_modules/
+fsh-generated/
+target/
+__pycache__/

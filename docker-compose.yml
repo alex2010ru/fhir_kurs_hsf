@@ -1,0 +1,14 @@
+services:
+  ig-publisher:
+    image: fhir-ig-publisher:test
+    build:
+      context: .
+      dockerfile: Dockerfile.ig-publisher
+    env_file:
+      - ./.env.fhir
+    volumes:
+      - ./test-ig:/usr/src/ig
+      - ig-publisher-fhir-cache:/home/igpublisher/.fhir
+
+volumes:
+  ig-publisher-fhir-cache:
