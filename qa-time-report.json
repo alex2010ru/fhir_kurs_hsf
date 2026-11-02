@@ -1,43 +1,48 @@
 {
-  "date" : "Mon, 02 Nov, 2026 10:46:31 +0000",
+  "date" : "Mon, 02 Nov, 2026 12:31:22 +0000",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [{
     "name" : "/fsh-generated/resources/ImplementationGuide-fhir.education.kursig.json",
     "size" : 2248,
     "processes" : [{
       "activity" : "load",
-      "start" : 12,
-      "length" : 119
+      "start" : 21,
+      "length" : 208
+    },
+    {
+      "activity" : "loadDepInfo",
+      "start" : 21,
+      "length" : 1
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 13,
-      "length" : 35
+      "start" : 21,
+      "length" : 13
     },
     {
       "activity" : "generateNarratives",
-      "start" : 13,
-      "length" : 159
+      "start" : 21,
+      "length" : 164
     },
     {
       "activity" : "validate",
-      "start" : 15,
-      "length" : 1385
+      "start" : 24,
+      "length" : 1357
     },
     {
       "activity" : "generate1",
-      "start" : 17,
-      "length" : 45
+      "start" : 25,
+      "length" : 53
     },
     {
       "activity" : "generate2",
-      "start" : 19,
-      "length" : 31
+      "start" : 27,
+      "length" : 39
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 27,
-      "length" : 1
+      "start" : 36,
+      "length" : 2
     }]
   },
   {
@@ -45,38 +50,38 @@
     "size" : 494,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 12,
+      "start" : 21,
       "length" : 3
     },
     {
-      "activity" : "generateSnapshots",
-      "start" : 12,
-      "length" : 1
-    },
-    {
       "activity" : "load-configure",
-      "start" : 13,
-      "length" : 1
+      "start" : 21,
+      "length" : 2
     },
     {
       "activity" : "generateNarratives",
-      "start" : 13,
-      "length" : 191
+      "start" : 22,
+      "length" : 284
     },
     {
       "activity" : "validate",
-      "start" : 16,
+      "start" : 25,
       "length" : 6
     },
     {
       "activity" : "generate1",
-      "start" : 17,
-      "length" : 4
+      "start" : 25,
+      "length" : 5
     },
     {
       "activity" : "generate2",
-      "start" : 19,
-      "length" : 10
+      "start" : 28,
+      "length" : 12
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 35,
+      "length" : 1
     }]
   },
   {
@@ -84,67 +89,67 @@
     "size" : 1335,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 12,
-      "length" : 1
+      "start" : 21,
+      "length" : 3
     },
     {
       "activity" : "load",
-      "start" : 12,
-      "length" : 5
+      "start" : 21,
+      "length" : 6
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 12,
-      "length" : 54
-    },
-    {
-      "activity" : "load-configure",
-      "start" : 13,
-      "length" : 1
-    },
-    {
-      "activity" : "loadDepInfo",
-      "start" : 13,
-      "length" : 1
+      "start" : 21,
+      "length" : 91
     },
     {
       "activity" : "generateNarratives",
-      "start" : 13,
-      "length" : 767
+      "start" : 22,
+      "length" : 431
     },
     {
       "activity" : "validate",
-      "start" : 14,
-      "length" : 689
+      "start" : 22,
+      "length" : 833
     },
     {
-      "activity" : "scanForUsageStats",
-      "start" : 16,
+      "activity" : "checkConformanceResources",
+      "start" : 25,
       "length" : 1
     },
     {
+      "activity" : "generateLogicalMaps",
+      "start" : 25,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 25,
+      "length" : 3
+    },
+    {
       "activity" : "generate1",
-      "start" : 17,
-      "length" : 134
+      "start" : 25,
+      "length" : 249
     },
     {
       "activity" : "generate2",
-      "start" : 19,
-      "length" : 829
+      "start" : 28,
+      "length" : 1009
     },
     {
       "activity" : "generate2",
-      "start" : 20,
-      "length" : 1885
+      "start" : 29,
+      "length" : 1424
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 27,
-      "length" : 7
+      "start" : 36,
+      "length" : 10
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 30,
+      "start" : 38,
       "length" : 1
     }]
   },
@@ -153,57 +158,57 @@
     "size" : 1596,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 12,
-      "length" : 1
+      "start" : 21,
+      "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 12,
-      "length" : 4
+      "start" : 21,
+      "length" : 5
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 13,
-      "length" : 35
+      "start" : 21,
+      "length" : 60
     },
     {
       "activity" : "generateNarratives",
-      "start" : 14,
-      "length" : 26
+      "start" : 22,
+      "length" : 31
     },
     {
       "activity" : "validate",
-      "start" : 15,
-      "length" : 240
+      "start" : 23,
+      "length" : 295
     },
     {
       "activity" : "scanForUsageStats",
-      "start" : 16,
+      "start" : 25,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 17,
-      "length" : 106
+      "start" : 25,
+      "length" : 175
     },
     {
       "activity" : "generate2",
-      "start" : 20,
-      "length" : 324
+      "start" : 29,
+      "length" : 363
     },
     {
       "activity" : "generate2",
-      "start" : 22,
-      "length" : 225
+      "start" : 30,
+      "length" : 421
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 27,
-      "length" : 6
+      "start" : 36,
+      "length" : 9
     },
     {
-      "activity" : "scanExamplesForR5",
-      "start" : 30,
+      "activity" : "scanProfilesForR5",
+      "start" : 38,
       "length" : 1
     }]
   },
@@ -221,12 +226,7 @@
   },
   {
     "name" : "/template/config",
-    "size" : 0,
-    "processes" : [{
-      "activity" : "generate2",
-      "start" : 20,
-      "length" : 1
-    }]
+    "size" : 0
   },
   {
     "name" : "/template/config/_config.yml",
