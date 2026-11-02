@@ -47,8 +47,8 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
   "name" : "FhirEducationKursIG",
   "title" : "Min FHIR-utbildning - Sushi+IG",
   "status" : "draft",
-  "date" : "2026-11-02T08:16:48+00:00",
-  "publisher" : "Min FHIR-utbildning - Sushi+IG",
+  "date" : "2026-11-02T08:27:18+00:00",
+  "publisher" : "FHIR-utbildning",
   "description" : "En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen.",
   "jurisdiction" : [{
     "coding" : [{
