@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-EducationPatient.csv
   "name" : "EducationPatient",
   "title" : "Education Patient",
   "status" : "draft",
-  "date" : "2026-11-02T12:31:22+00:00",
+  "date" : "2026-11-02T12:35:01+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "Patientprofil för FHIR-utbildningen. Profilen byggs ut steg för steg under kursen.",
   "jurisdiction" : [{
@@ -86,7 +86,14 @@ Other representations of profile: [CSV](StructureDefinition-EducationPatient.csv
   "differential" : {
     "element" : [{
       "id" : "Patient",
-      "path" : "Patient"
+      "path" : "Patient",
+      "constraint" : [{
+        "key" : "edu-pat1",
+        "severity" : "error",
+        "human" : "personnummer med 12 siffror",
+        "expression" : "identifier\n  .where(system = $personnummer)\n  .all(value.matches('^[0-9]{12}$'))",
+        "source" : "http://example.org/fhir/education/kursig/StructureDefinition/EducationPatient"
+      }]
     },
     {
       "id" : "Patient.identifier",
