@@ -9,10 +9,10 @@
   <url value="http://example.org/fhir/education/kursig/ImplementationGuide/fhir.education.kursig"/>
   <version value="0.1.0"/>
   <name value="FhirEducationKursIG"/>
-  <title value="FHIR-utbildning – Kurs-IG"/>
+  <title value="Min FHIR-utbildning - Sushi+IG"/>
   <status value="draft"/>
-  <date value="2026-11-01T14:14:28+00:00"/>
-  <publisher value="FHIR-utbildning"/>
+  <date value="2026-11-02T08:16:48+00:00"/>
+  <publisher value="Min FHIR-utbildning - Sushi+IG"/>
   <description value="En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen."/>
   <jurisdiction>
     <coding>

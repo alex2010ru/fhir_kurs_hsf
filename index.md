@@ -1,4 +1,4 @@
-# Hem - FHIR-utbildning – Kurs-IG v0.1.0
+# Hem - Min FHIR-utbildning - Sushi+IG v0.1.0
 
 * [**Table of Contents**](toc.md)
 * **Hem**
@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://example.org/fhir/education/kursig/ImplementationGuide/fhir.education.kursig | *Version*:0.1.0 |
-| Draft as of 2026-11-01 | *Computable Name*:FhirEducationKursIG |
+| Draft as of 2026-11-02 | *Computable Name*:FhirEducationKursIG |
 
 Det här är den Implementation Guide (IG) som vi bygger upp under FHIR-utbildningen.
 
@@ -45,10 +45,10 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
   "url" : "http://example.org/fhir/education/kursig/ImplementationGuide/fhir.education.kursig",
   "version" : "0.1.0",
   "name" : "FhirEducationKursIG",
-  "title" : "FHIR-utbildning – Kurs-IG",
+  "title" : "Min FHIR-utbildning - Sushi+IG",
   "status" : "draft",
-  "date" : "2026-11-01T14:14:28+00:00",
-  "publisher" : "FHIR-utbildning",
+  "date" : "2026-11-02T08:16:48+00:00",
+  "publisher" : "Min FHIR-utbildning - Sushi+IG",
   "description" : "En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen.",
   "jurisdiction" : [{
     "coding" : [{

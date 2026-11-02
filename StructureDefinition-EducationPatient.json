@@ -10,8 +10,8 @@
   "name" : "EducationPatient",
   "title" : "Education Patient",
   "status" : "draft",
-  "date" : "2026-11-01T14:14:28+00:00",
-  "publisher" : "FHIR-utbildning",
+  "date" : "2026-11-02T08:16:48+00:00",
+  "publisher" : "Min FHIR-utbildning - Sushi+IG",
   "description" : "Patientprofil för FHIR-utbildningen. Profilen byggs ut steg för steg under kursen.",
   "jurisdiction" : [{
     "coding" : [{

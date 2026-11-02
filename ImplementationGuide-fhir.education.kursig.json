@@ -8,10 +8,10 @@
   "url" : "http://example.org/fhir/education/kursig/ImplementationGuide/fhir.education.kursig",
   "version" : "0.1.0",
   "name" : "FhirEducationKursIG",
-  "title" : "FHIR-utbildning – Kurs-IG",
+  "title" : "Min FHIR-utbildning - Sushi+IG",
   "status" : "draft",
-  "date" : "2026-11-01T14:14:28+00:00",
-  "publisher" : "FHIR-utbildning",
+  "date" : "2026-11-02T08:16:48+00:00",
+  "publisher" : "Min FHIR-utbildning - Sushi+IG",
   "description" : "En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen.",
   "jurisdiction" : [{
     "coding" : [{

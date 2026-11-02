@@ -1,4 +1,4 @@
-# Artifacts Summary - FHIR-utbildning – Kurs-IG v0.1.0
+# Artifacts Summary - Min FHIR-utbildning - Sushi+IG v0.1.0
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
