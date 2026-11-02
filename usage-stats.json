@@ -5,6 +5,12 @@
   "jurisdiction": "SE",
   "extensions": [],
   "profiles": {
+    "Encounter": [
+      {
+        "url": "http://example.org/fhir/education/kursig/StructureDefinition/EducationEncounter",
+        "title": "My first profile with fsh"
+      }
+    ],
     "Patient": [
       {
         "url": "http://example.org/fhir/education/kursig/StructureDefinition/EducationPatient",

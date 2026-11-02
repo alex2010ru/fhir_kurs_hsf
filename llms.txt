@@ -9,6 +9,7 @@
 
 ### Resource Profiles
 
+* [My first profile with fsh](StructureDefinition-EducationEncounter.md)
 * [Education Patient](StructureDefinition-EducationPatient.md)
 
 ### ImplementationGuides
